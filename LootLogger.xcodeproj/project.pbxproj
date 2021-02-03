@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05286FB325C2F22C00F70E5D /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05286FB225C2F22C00F70E5D /* itemCell.swift */; };
+		05286FAE25C2E3A300F70E5D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05286FAD25C2E3A300F70E5D /* ItemCell.swift */; };
+		05286FB625C31BF000F70E5D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05286FB525C31BF000F70E5D /* DetailViewController.swift */; };
 		05F8228F25BF2E9400414525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8228E25BF2E9400414525 /* AppDelegate.swift */; };
 		05F8229125BF2E9400414525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8229025BF2E9400414525 /* SceneDelegate.swift */; };
 		05F8229625BF2E9400414525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F8229425BF2E9400414525 /* Main.storyboard */; };
@@ -19,7 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05286FB225C2F22C00F70E5D /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		05286FAD25C2E3A300F70E5D /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		05286FB525C31BF000F70E5D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		05F8228B25BF2E9400414525 /* LootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F8228E25BF2E9400414525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F8229025BF2E9400414525 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,13 +67,14 @@
 				05F8228E25BF2E9400414525 /* AppDelegate.swift */,
 				05F8229025BF2E9400414525 /* SceneDelegate.swift */,
 				05F822A325BF2EE500414525 /* ItemsViewController.swift */,
+				05286FB525C31BF000F70E5D /* DetailViewController.swift */,
 				05F822A625BF304100414525 /* Item.swift */,
 				05F822A925BF367700414525 /* ItemStore.swift */,
+				05286FAD25C2E3A300F70E5D /* ItemCell.swift */,
 				05F8229425BF2E9400414525 /* Main.storyboard */,
 				05F8229725BF2E9500414525 /* Assets.xcassets */,
 				05F8229925BF2E9500414525 /* LaunchScreen.storyboard */,
 				05F8229C25BF2E9500414525 /* Info.plist */,
-				05286FB225C2F22C00F70E5D /* itemCell.swift */,
 			);
 			path = LootLogger;
 			sourceTree = "<group>";
@@ -150,7 +153,8 @@
 				05F822A425BF2EE500414525 /* ItemsViewController.swift in Sources */,
 				05F8228F25BF2E9400414525 /* AppDelegate.swift in Sources */,
 				05F822AA25BF367700414525 /* ItemStore.swift in Sources */,
-				05286FB325C2F22C00F70E5D /* itemCell.swift in Sources */,
+				05286FB625C31BF000F70E5D /* DetailViewController.swift in Sources */,
+				05286FAE25C2E3A300F70E5D /* ItemCell.swift in Sources */,
 				05F8229125BF2E9400414525 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
